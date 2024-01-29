@@ -15,6 +15,7 @@ class MainLayout extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(title),
+        backgroundColor: Colors.blue,
       ),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 8.0),
